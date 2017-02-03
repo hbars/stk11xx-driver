@@ -1,0 +1,387 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CLAMP	stk11xx-dev-0408.c	974;"	d	file:
+CLIP	stk11xx-bayer.c	50;"	d	file:
+CONFIG_STK11XX_DEBUG	stk11xx.h	142;"	d
+CONFIG_STK11XX_DEBUG_STREAM	stk11xx.h	171;"	d
+DRIVER_AUTHOR	stk11xx-usb.c	/^MODULE_AUTHOR(DRIVER_AUTHOR);						\/**< @brief Driver is written by Nicolas VIVIEN *\/$/;"	v
+DRIVER_AUTHOR	stk11xx.h	43;"	d
+DRIVER_DESC	stk11xx-usb.c	/^MODULE_DESCRIPTION(DRIVER_DESC);					\/**< @brief Define the description of the driver *\/$/;"	v
+DRIVER_DESC	stk11xx.h	42;"	d
+DRIVER_NAME	stk11xx.h	39;"	d
+DRIVER_SUPPORT	stk11xx-usb.c	/^MODULE_SUPPORTED_DEVICE(DRIVER_SUPPORT);			\/**< @brief List of supported device *\/$/;"	v
+DRIVER_SUPPORT	stk11xx.h	119;"	d
+DRIVER_VERSION	stk11xx.h	40;"	d
+DRIVER_VERSION_NUM	stk11xx.h	41;"	d
+ISO_BUFFER_SIZE	stk11xx.h	90;"	d
+ISO_FRAMES_PER_DESC	stk11xx.h	88;"	d
+ISO_MAX_FRAME_SIZE	stk11xx.h	89;"	d
+MAX	stk11xx-bayer.c	48;"	d	file:
+MAX_ISO_BUFS	stk11xx.h	87;"	d
+MIN	stk11xx-bayer.c	49;"	d	file:
+PREFIX	stk11xx.h	44;"	d
+STK11XX_1024x768	stk11xx.h	/^	STK11XX_1024x768,$/;"	e	enum:__anon3
+STK11XX_1280x1024	stk11xx.h	/^	STK11XX_1280x1024,$/;"	e	enum:__anon3
+STK11XX_128x96	stk11xx.h	/^	STK11XX_128x96,$/;"	e	enum:__anon3
+STK11XX_160x120	stk11xx.h	/^	STK11XX_160x120,$/;"	e	enum:__anon3
+STK11XX_213x160	stk11xx.h	/^	STK11XX_213x160,$/;"	e	enum:__anon3
+STK11XX_320x240	stk11xx.h	/^	STK11XX_320x240,$/;"	e	enum:__anon3
+STK11XX_640x480	stk11xx.h	/^	STK11XX_640x480,$/;"	e	enum:__anon3
+STK11XX_720x576	stk11xx.h	/^	STK11XX_720x576,$/;"	e	enum:__anon3
+STK11XX_800x600	stk11xx.h	/^	STK11XX_800x600,$/;"	e	enum:__anon3
+STK11XX_80x60	stk11xx.h	/^	STK11XX_80x60,$/;"	e	enum:__anon3
+STK11XX_DEV_H	stk11xx-dev.h	35;"	d
+STK11XX_FRAME_SIZE	stk11xx.h	105;"	d
+STK11XX_H	stk11xx.h	35;"	d
+STK11XX_MAX_IMAGES	stk11xx.h	104;"	d
+STK11XX_NBR_SIZES	stk11xx.h	/^	STK11XX_NBR_SIZES$/;"	e	enum:__anon3
+STK11XX_PAL	stk11xx.h	/^	STK11XX_PAL,                        \/**< For PAL capture card *\/$/;"	e	enum:__anon2
+STK11XX_PALETTE_BGR24	stk11xx.h	/^	STK11XX_PALETTE_BGR24,$/;"	e	enum:__anon4
+STK11XX_PALETTE_BGR32	stk11xx.h	/^	STK11XX_PALETTE_BGR32,$/;"	e	enum:__anon4
+STK11XX_PALETTE_RGB24	stk11xx.h	/^	STK11XX_PALETTE_RGB24,$/;"	e	enum:__anon4
+STK11XX_PALETTE_RGB32	stk11xx.h	/^	STK11XX_PALETTE_RGB32,$/;"	e	enum:__anon4
+STK11XX_PALETTE_UYVY	stk11xx.h	/^	STK11XX_PALETTE_UYVY,$/;"	e	enum:__anon4
+STK11XX_PALETTE_YUYV	stk11xx.h	/^	STK11XX_PALETTE_YUYV$/;"	e	enum:__anon4
+STK11XX_PERCENT	stk11xx.h	386;"	d
+STK11XX_SXGA	stk11xx.h	/^	STK11XX_SXGA,						\/**< For SXGA video camera 1.3M *\/$/;"	e	enum:__anon2
+STK11XX_UXGA	stk11xx.h	/^	STK11XX_UXGA						\/**< For UXGA video camera 2M *\/$/;"	e	enum:__anon2
+STK11XX_VGA	stk11xx.h	/^	STK11XX_VGA,						\/**< For VGA video camera *\/$/;"	e	enum:__anon2
+STK_DEBUG	stk11xx.h	150;"	d
+STK_DEBUG	stk11xx.h	157;"	d
+STK_ERROR	stk11xx.h	148;"	d
+STK_ERROR	stk11xx.h	155;"	d
+STK_INFO	stk11xx.h	147;"	d
+STK_INFO	stk11xx.h	154;"	d
+STK_STREAM	stk11xx.h	176;"	d
+STK_STREAM	stk11xx.h	180;"	d
+STK_WARNING	stk11xx.h	149;"	d
+STK_WARNING	stk11xx.h	156;"	d
+SYNTEK_STK_0408	stk11xx.h	/^	SYNTEK_STK_0408 = 10,$/;"	e	enum:__anon1
+SYNTEK_STK_0500	stk11xx.h	/^	SYNTEK_STK_0500 = 9,$/;"	e	enum:__anon1
+SYNTEK_STK_6A31	stk11xx.h	/^	SYNTEK_STK_6A31 = 4,$/;"	e	enum:__anon1
+SYNTEK_STK_6A33	stk11xx.h	/^	SYNTEK_STK_6A33 = 5,$/;"	e	enum:__anon1
+SYNTEK_STK_6A51	stk11xx.h	/^	SYNTEK_STK_6A51 = 6,$/;"	e	enum:__anon1
+SYNTEK_STK_6A54	stk11xx.h	/^	SYNTEK_STK_6A54 = 7,$/;"	e	enum:__anon1
+SYNTEK_STK_6D51	stk11xx.h	/^	SYNTEK_STK_6D51 = 8,$/;"	e	enum:__anon1
+SYNTEK_STK_A311	stk11xx.h	/^	SYNTEK_STK_A311 = 2,$/;"	e	enum:__anon1
+SYNTEK_STK_A821	stk11xx.h	/^	SYNTEK_STK_A821 = 3,$/;"	e	enum:__anon1
+SYNTEK_STK_AA11	stk11xx.h	/^	SYNTEK_STK_AA11 = 11,$/;"	e	enum:__anon1
+SYNTEK_STK_M811	stk11xx.h	/^	SYNTEK_STK_M811 = 1,$/;"	e	enum:__anon1
+T_STK11XX_PALETTE	stk11xx.h	/^} T_STK11XX_PALETTE;$/;"	t	typeref:enum:__anon4
+T_STK11XX_RESOLUTION	stk11xx.h	/^} T_STK11XX_RESOLUTION;$/;"	t	typeref:enum:__anon3
+T_STK11XX_VIDEOMODE	stk11xx.h	/^} T_STK11XX_VIDEOMODE;$/;"	t	typeref:enum:__anon2
+T_SYNTEK_DEVICE	stk11xx.h	/^} T_SYNTEK_DEVICE;$/;"	t	typeref:enum:__anon1
+USB_STK_0408_PRODUCT_ID	stk11xx.h	58;"	d
+USB_STK_0500_PRODUCT_ID	stk11xx.h	59;"	d
+USB_STK_0501_PRODUCT_ID	stk11xx.h	60;"	d
+USB_STK_6A31_PRODUCT_ID	stk11xx.h	52;"	d
+USB_STK_6A33_PRODUCT_ID	stk11xx.h	53;"	d
+USB_STK_6A51_PRODUCT_ID	stk11xx.h	54;"	d
+USB_STK_6A54_PRODUCT_ID	stk11xx.h	55;"	d
+USB_STK_6D51_PRODUCT_ID	stk11xx.h	56;"	d
+USB_STK_A311_PRODUCT_ID	stk11xx.h	49;"	d
+USB_STK_A821_PRODUCT_ID	stk11xx.h	50;"	d
+USB_STK_AA11_PRODUCT_ID	stk11xx.h	51;"	d
+USB_SYNTEK1_VENDOR_ID	stk11xx.h	46;"	d
+USB_SYNTEK2_VENDOR_ID	stk11xx.h	47;"	d
+VID_HARDWARE_STK11XX	stk11xx.h	69;"	d
+__this_module	stk11xx.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	stk11xx.mod.c	/^__used$/;"	v	file:
+__used	stk11xx.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+brightness	stk11xx-usb.c	/^static int brightness = -1;$/;"	v	file:
+brightness	stk11xx.h	/^	int brightness;						\/**< Brightness setting *\/$/;"	m	struct:stk11xx_video
+colour	stk11xx-usb.c	/^static int colour = -1;$/;"	v	file:
+colour	stk11xx.h	/^	int colour;							\/**< Colour setting *\/$/;"	m	struct:stk11xx_video
+contrast	stk11xx-usb.c	/^static int contrast = -1;$/;"	v	file:
+contrast	stk11xx.h	/^	int contrast;						\/**< Contrast setting *\/$/;"	m	struct:stk11xx_video
+data	stk11xx.h	/^	void *data;$/;"	m	struct:stk11xx_frame_buf
+data	stk11xx.h	/^	void *data;$/;"	m	struct:stk11xx_iso_buf
+default_brightness	stk11xx-usb.c	/^static int default_brightness = -1;$/;"	v	file:
+default_brightness	stk11xx.h	/^	int default_brightness;$/;"	m	struct:stk11xx_video
+default_colour	stk11xx-usb.c	/^static int default_colour = -1;$/;"	v	file:
+default_colour	stk11xx.h	/^	int default_colour;$/;"	m	struct:stk11xx_video
+default_contrast	stk11xx-usb.c	/^static int default_contrast = -1;$/;"	v	file:
+default_contrast	stk11xx.h	/^	int default_contrast;$/;"	m	struct:stk11xx_video
+default_fps	stk11xx-usb.c	/^static int default_fps = -1;$/;"	v	file:
+default_hflip	stk11xx-usb.c	/^static int default_hflip = -1;$/;"	v	file:
+default_hflip	stk11xx.h	/^	int default_hflip;$/;"	m	struct:stk11xx_video
+default_nbrframebuf	stk11xx-buf.c	/^static int default_nbrframebuf = 3;$/;"	v	file:
+default_norm	stk11xx-usb.c	/^static int default_norm = -1;$/;"	v	file:
+default_vflip	stk11xx-usb.c	/^static int default_vflip = -1;$/;"	v	file:
+default_vflip	stk11xx.h	/^	int default_vflip;$/;"	m	struct:stk11xx_video
+default_whiteness	stk11xx-usb.c	/^static int default_whiteness = -1;$/;"	v	file:
+default_whiteness	stk11xx.h	/^	int default_whiteness;$/;"	m	struct:stk11xx_video
+depth	stk11xx.h	/^	int depth;							\/**< Depth colour setting *\/$/;"	m	struct:stk11xx_video
+dev_stk0408_camera_asleep	stk11xx-dev-0408.c	/^int dev_stk0408_camera_asleep(struct usb_stk11xx *dev)$/;"	f
+dev_stk0408_camera_settings	stk11xx-dev-0408.c	/^int dev_stk0408_camera_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk0408_check_device	stk11xx-dev-0408.c	/^int dev_stk0408_check_device(struct usb_stk11xx *dev)$/;"	f
+dev_stk0408_configure_device	stk11xx-dev-0408.c	/^int dev_stk0408_configure_device(struct usb_stk11xx *dev, int step)$/;"	f
+dev_stk0408_decode	stk11xx-dev-0408.c	/^int dev_stk0408_decode(struct usb_stk11xx *dev)$/;"	f
+dev_stk0408_init_camera	stk11xx-dev-0408.c	/^int dev_stk0408_init_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk0408_initialize_device	stk11xx-dev-0408.c	/^int dev_stk0408_initialize_device(struct usb_stk11xx *dev)$/;"	f
+dev_stk0408_reconf_camera	stk11xx-dev-0408.c	/^int dev_stk0408_reconf_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk0408_select_input	stk11xx-dev-0408.c	/^int dev_stk0408_select_input(struct usb_stk11xx *dev, int input)$/;"	f
+dev_stk0408_sensor_settings	stk11xx-dev-0408.c	/^int dev_stk0408_sensor_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk0408_set_camera_fps	stk11xx-dev-0408.c	/^int dev_stk0408_set_camera_fps(struct usb_stk11xx *dev)$/;"	f
+dev_stk0408_set_camera_quality	stk11xx-dev-0408.c	/^int dev_stk0408_set_camera_quality(struct usb_stk11xx *dev)$/;"	f
+dev_stk0408_set_resolution	stk11xx-dev-0408.c	/^int dev_stk0408_set_resolution(struct usb_stk11xx *dev)$/;"	f
+dev_stk0408_start_stream	stk11xx-dev-0408.c	/^int dev_stk0408_start_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk0408_stop_stream	stk11xx-dev-0408.c	/^int dev_stk0408_stop_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk0408_write0	stk11xx-dev-0408.c	/^int dev_stk0408_write0(struct usb_stk11xx *dev, int mask, int val)$/;"	f
+dev_stk0408_write_208	stk11xx-dev-0408.c	/^int dev_stk0408_write_208(struct usb_stk11xx *dev, int val)$/;"	f
+dev_stk0408_write_saa	stk11xx-dev-0408.c	/^int dev_stk0408_write_saa(struct usb_stk11xx *dev, int reg, int val)$/;"	f
+dev_stk0500_camera_asleep	stk11xx-dev-0500.c	/^int dev_stk0500_camera_asleep(struct usb_stk11xx *dev)$/;"	f
+dev_stk0500_camera_settings	stk11xx-dev-0500.c	/^int dev_stk0500_camera_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk0500_configure_device	stk11xx-dev-0500.c	/^int dev_stk0500_configure_device(struct usb_stk11xx *dev, int step)$/;"	f
+dev_stk0500_init_camera	stk11xx-dev-0500.c	/^int dev_stk0500_init_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk0500_initialize_device	stk11xx-dev-0500.c	/^int dev_stk0500_initialize_device(struct usb_stk11xx *dev)$/;"	f
+dev_stk0500_reconf_camera	stk11xx-dev-0500.c	/^int dev_stk0500_reconf_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk0500_sensor_settings	stk11xx-dev-0500.c	/^int dev_stk0500_sensor_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk0500_set_camera_fps	stk11xx-dev-0500.c	/^int dev_stk0500_set_camera_fps(struct usb_stk11xx *dev)$/;"	f
+dev_stk0500_set_camera_quality	stk11xx-dev-0500.c	/^int dev_stk0500_set_camera_quality(struct usb_stk11xx *dev)$/;"	f
+dev_stk0500_start_stream	stk11xx-dev-0500.c	/^int dev_stk0500_start_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk0500_stop_stream	stk11xx-dev-0500.c	/^int dev_stk0500_stop_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk11xx_camera_asleep	stk11xx-dev.c	/^int dev_stk11xx_camera_asleep(struct usb_stk11xx *dev)$/;"	f
+dev_stk11xx_camera_off	stk11xx-dev.c	/^int dev_stk11xx_camera_off(struct usb_stk11xx *dev)$/;"	f
+dev_stk11xx_camera_on	stk11xx-dev.c	/^int dev_stk11xx_camera_on(struct usb_stk11xx *dev)$/;"	f
+dev_stk11xx_camera_settings	stk11xx-dev.c	/^int dev_stk11xx_camera_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk11xx_check_device	stk11xx-dev.c	/^int dev_stk11xx_check_device(struct usb_stk11xx *dev, int nbr)$/;"	f
+dev_stk11xx_decompress	stk11xx-dev.c	/^int dev_stk11xx_decompress(struct usb_stk11xx *dev)$/;"	f
+dev_stk11xx_init_camera	stk11xx-dev.c	/^int dev_stk11xx_init_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk11xx_initialize_device	stk11xx-dev.c	/^int dev_stk11xx_initialize_device(struct usb_stk11xx *dev)$/;"	f
+dev_stk11xx_reconf_camera	stk11xx-dev.c	/^int dev_stk11xx_reconf_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk11xx_set_camera_fps	stk11xx-dev.c	/^int dev_stk11xx_set_camera_fps(struct usb_stk11xx *dev)$/;"	f
+dev_stk11xx_set_camera_quality	stk11xx-dev.c	/^int dev_stk11xx_set_camera_quality(struct usb_stk11xx *dev)$/;"	f
+dev_stk11xx_start_stream	stk11xx-dev.c	/^int dev_stk11xx_start_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk11xx_stop_stream	stk11xx-dev.c	/^int dev_stk11xx_stop_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk11xx_watchdog_camera	stk11xx-dev.c	/^int dev_stk11xx_watchdog_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a31_camera_asleep	stk11xx-dev-6a31.c	/^int dev_stk6a31_camera_asleep(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a31_camera_settings	stk11xx-dev-6a31.c	/^int dev_stk6a31_camera_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a31_configure_device	stk11xx-dev-6a31.c	/^int dev_stk6a31_configure_device(struct usb_stk11xx *dev, int step)$/;"	f
+dev_stk6a31_init_camera	stk11xx-dev-6a31.c	/^int dev_stk6a31_init_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a31_initialize_device	stk11xx-dev-6a31.c	/^int dev_stk6a31_initialize_device(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a31_reconf_camera	stk11xx-dev-6a31.c	/^int dev_stk6a31_reconf_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a31_sensor_settings	stk11xx-dev-6a31.c	/^int dev_stk6a31_sensor_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a31_set_camera_fps	stk11xx-dev-6a31.c	/^int dev_stk6a31_set_camera_fps(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a31_set_camera_quality	stk11xx-dev-6a31.c	/^int dev_stk6a31_set_camera_quality(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a31_start_stream	stk11xx-dev-6a31.c	/^int dev_stk6a31_start_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a31_stop_stream	stk11xx-dev-6a31.c	/^int dev_stk6a31_stop_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a33_camera_asleep	stk11xx-dev-6a33.c	/^int dev_stk6a33_camera_asleep(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a33_camera_settings	stk11xx-dev-6a33.c	/^int dev_stk6a33_camera_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a33_configure_device	stk11xx-dev-6a33.c	/^int dev_stk6a33_configure_device(struct usb_stk11xx *dev, int step)$/;"	f
+dev_stk6a33_init_camera	stk11xx-dev-6a33.c	/^int dev_stk6a33_init_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a33_initialize_device	stk11xx-dev-6a33.c	/^int dev_stk6a33_initialize_device(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a33_reconf_camera	stk11xx-dev-6a33.c	/^int dev_stk6a33_reconf_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a33_sensor_settings	stk11xx-dev-6a33.c	/^int dev_stk6a33_sensor_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a33_set_camera_fps	stk11xx-dev-6a33.c	/^int dev_stk6a33_set_camera_fps(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a33_set_camera_quality	stk11xx-dev-6a33.c	/^int dev_stk6a33_set_camera_quality(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a33_start_stream	stk11xx-dev-6a33.c	/^int dev_stk6a33_start_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a33_stop_stream	stk11xx-dev-6a33.c	/^int dev_stk6a33_stop_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a51_camera_asleep	stk11xx-dev-6a51.c	/^int dev_stk6a51_camera_asleep(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a51_camera_settings	stk11xx-dev-6a51.c	/^int dev_stk6a51_camera_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a51_configure_device	stk11xx-dev-6a51.c	/^int dev_stk6a51_configure_device(struct usb_stk11xx *dev, int step)$/;"	f
+dev_stk6a51_init_camera	stk11xx-dev-6a51.c	/^int dev_stk6a51_init_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a51_initialize_device	stk11xx-dev-6a51.c	/^int dev_stk6a51_initialize_device(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a51_reconf_camera	stk11xx-dev-6a51.c	/^int dev_stk6a51_reconf_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a51_sensor_settings	stk11xx-dev-6a51.c	/^int dev_stk6a51_sensor_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a51_set_camera_fps	stk11xx-dev-6a51.c	/^int dev_stk6a51_set_camera_fps(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a51_set_camera_quality	stk11xx-dev-6a51.c	/^int dev_stk6a51_set_camera_quality(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a51_start_stream	stk11xx-dev-6a51.c	/^int dev_stk6a51_start_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a51_stop_stream	stk11xx-dev-6a51.c	/^int dev_stk6a51_stop_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a54_camera_asleep	stk11xx-dev-6a54.c	/^int dev_stk6a54_camera_asleep(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a54_camera_settings	stk11xx-dev-6a54.c	/^int dev_stk6a54_camera_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a54_configure_device	stk11xx-dev-6a54.c	/^int dev_stk6a54_configure_device(struct usb_stk11xx *dev, int step)$/;"	f
+dev_stk6a54_init_camera	stk11xx-dev-6a54.c	/^int dev_stk6a54_init_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a54_initialize_device	stk11xx-dev-6a54.c	/^int dev_stk6a54_initialize_device(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a54_reconf_camera	stk11xx-dev-6a54.c	/^int dev_stk6a54_reconf_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a54_sensor_settings	stk11xx-dev-6a54.c	/^int dev_stk6a54_sensor_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a54_set_camera_fps	stk11xx-dev-6a54.c	/^int dev_stk6a54_set_camera_fps(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a54_set_camera_quality	stk11xx-dev-6a54.c	/^int dev_stk6a54_set_camera_quality(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a54_start_stream	stk11xx-dev-6a54.c	/^int dev_stk6a54_start_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk6a54_stop_stream	stk11xx-dev-6a54.c	/^int dev_stk6a54_stop_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk6d51_camera_asleep	stk11xx-dev-6d51.c	/^int dev_stk6d51_camera_asleep(struct usb_stk11xx *dev)$/;"	f
+dev_stk6d51_camera_settings	stk11xx-dev-6d51.c	/^int dev_stk6d51_camera_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk6d51_configure_device	stk11xx-dev-6d51.c	/^int dev_stk6d51_configure_device(struct usb_stk11xx *dev, int step)$/;"	f
+dev_stk6d51_init_camera	stk11xx-dev-6d51.c	/^int dev_stk6d51_init_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk6d51_initialize_device	stk11xx-dev-6d51.c	/^int dev_stk6d51_initialize_device(struct usb_stk11xx *dev)$/;"	f
+dev_stk6d51_reconf_camera	stk11xx-dev-6d51.c	/^int dev_stk6d51_reconf_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stk6d51_sensor_settings	stk11xx-dev-6d51.c	/^int dev_stk6d51_sensor_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stk6d51_set_camera_fps	stk11xx-dev-6d51.c	/^int dev_stk6d51_set_camera_fps(struct usb_stk11xx *dev)$/;"	f
+dev_stk6d51_set_camera_quality	stk11xx-dev-6d51.c	/^int dev_stk6d51_set_camera_quality(struct usb_stk11xx *dev)$/;"	f
+dev_stk6d51_start_stream	stk11xx-dev-6d51.c	/^int dev_stk6d51_start_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stk6d51_stop_stream	stk11xx-dev-6d51.c	/^int dev_stk6d51_stop_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stka311_camera_asleep	stk11xx-dev-a311.c	/^int dev_stka311_camera_asleep(struct usb_stk11xx *dev)$/;"	f
+dev_stka311_camera_settings	stk11xx-dev-a311.c	/^int dev_stka311_camera_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stka311_configure_device	stk11xx-dev-a311.c	/^int dev_stka311_configure_device(struct usb_stk11xx *dev, int step)$/;"	f
+dev_stka311_init_camera	stk11xx-dev-a311.c	/^int dev_stka311_init_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stka311_initialize_device	stk11xx-dev-a311.c	/^int dev_stka311_initialize_device(struct usb_stk11xx *dev)$/;"	f
+dev_stka311_reconf_camera	stk11xx-dev-a311.c	/^int dev_stka311_reconf_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stka311_sensor_settings	stk11xx-dev-a311.c	/^int dev_stka311_sensor_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stka311_set_camera_fps	stk11xx-dev-a311.c	/^int dev_stka311_set_camera_fps(struct usb_stk11xx *dev)$/;"	f
+dev_stka311_set_camera_quality	stk11xx-dev-a311.c	/^int dev_stka311_set_camera_quality(struct usb_stk11xx *dev)$/;"	f
+dev_stka311_start_stream	stk11xx-dev-a311.c	/^int dev_stka311_start_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stka311_stop_stream	stk11xx-dev-a311.c	/^int dev_stka311_stop_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stka821_camera_asleep	stk11xx-dev-a821.c	/^int dev_stka821_camera_asleep(struct usb_stk11xx *dev)$/;"	f
+dev_stka821_camera_settings	stk11xx-dev-a821.c	/^int dev_stka821_camera_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stka821_configure_device	stk11xx-dev-a821.c	/^int dev_stka821_configure_device(struct usb_stk11xx *dev, int step)$/;"	f
+dev_stka821_init_camera	stk11xx-dev-a821.c	/^int dev_stka821_init_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stka821_initialize_device	stk11xx-dev-a821.c	/^int dev_stka821_initialize_device(struct usb_stk11xx *dev)$/;"	f
+dev_stka821_reconf_camera	stk11xx-dev-a821.c	/^int dev_stka821_reconf_camera(struct usb_stk11xx *dev)$/;"	f
+dev_stka821_sensor_settings	stk11xx-dev-a821.c	/^int dev_stka821_sensor_settings(struct usb_stk11xx *dev)$/;"	f
+dev_stka821_set_camera_fps	stk11xx-dev-a821.c	/^int dev_stka821_set_camera_fps(struct usb_stk11xx *dev)$/;"	f
+dev_stka821_set_camera_quality	stk11xx-dev-a821.c	/^int dev_stka821_set_camera_quality(struct usb_stk11xx *dev)$/;"	f
+dev_stka821_start_stream	stk11xx-dev-a821.c	/^int dev_stka821_start_stream(struct usb_stk11xx *dev)$/;"	f
+dev_stka821_stop_stream	stk11xx-dev-a821.c	/^int dev_stka821_stop_stream(struct usb_stk11xx *dev)$/;"	f
+empty_frames	stk11xx.h	/^	struct stk11xx_frame_buf *empty_frames, *empty_frames_tail;$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::stk11xx_frame_buf
+empty_frames_tail	stk11xx.h	/^	struct stk11xx_frame_buf *empty_frames, *empty_frames_tail;$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::
+error_status	stk11xx.h	/^	int error_status;$/;"	m	struct:usb_stk11xx
+errors	stk11xx.h	/^	int errors;$/;"	m	struct:stk11xx_frame_buf
+fill_frame	stk11xx.h	/^	struct stk11xx_frame_buf *fill_frame;$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::stk11xx_frame_buf
+fill_image	stk11xx.h	/^	int fill_image;$/;"	m	struct:usb_stk11xx
+filled	stk11xx.h	/^	volatile int filled;$/;"	m	struct:stk11xx_frame_buf
+fps	stk11xx-usb.c	/^static int fps;$/;"	v	file:
+fps	stk11xx.h	/^	int fps;							\/**< FPS setting *\/$/;"	m	struct:stk11xx_video
+frame_size	stk11xx.h	/^	int frame_size;$/;"	m	struct:usb_stk11xx
+framebuf	stk11xx.h	/^	struct stk11xx_frame_buf *framebuf;$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::stk11xx_frame_buf
+full_frames	stk11xx.h	/^	struct stk11xx_frame_buf *full_frames, *full_frames_tail;$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::stk11xx_frame_buf
+full_frames_tail	stk11xx.h	/^	struct stk11xx_frame_buf *full_frames, *full_frames_tail;$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::
+hflip	stk11xx-usb.c	/^static int hflip = -1;$/;"	v	file:
+hflip	stk11xx.h	/^	int hflip;							\/**< Horizontal flip *\/$/;"	m	struct:stk11xx_video
+hue	stk11xx.h	/^	int hue;							\/**< Hue setting *\/$/;"	m	struct:stk11xx_video
+image	stk11xx.h	/^	struct stk11xx_coord image;$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::stk11xx_coord
+image_data	stk11xx.h	/^	void *image_data;$/;"	m	struct:usb_stk11xx
+image_read_pos	stk11xx.h	/^	int image_read_pos;$/;"	m	struct:usb_stk11xx
+image_size	stk11xx.h	/^	int image_size;$/;"	m	struct:usb_stk11xx
+image_used	stk11xx.h	/^	int image_used[STK11XX_MAX_IMAGES];$/;"	m	struct:usb_stk11xx
+images	stk11xx.h	/^	struct stk11xx_image_buf images[STK11XX_MAX_IMAGES];$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::stk11xx_image_buf
+input	stk11xx.h	/^	int input;                          \/**< Input for multiinput cards *\/$/;"	m	struct:stk11xx_video
+int_in_buffer	stk11xx.h	/^	unsigned char *int_in_buffer;		\/**< Interrupt IN buffer *\/$/;"	m	struct:usb_stk11xx
+int_in_endpointAddr	stk11xx.h	/^	__u8 int_in_endpointAddr;			\/**< Interrupt IN endpoint address *\/$/;"	m	struct:usb_stk11xx
+int_in_size	stk11xx.h	/^	size_t int_in_size;					\/**< Interrupt IN buffer size *\/$/;"	m	struct:usb_stk11xx
+interface	stk11xx.h	/^	struct usb_interface *interface;	\/**< Pointer on a USB interface *\/$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::usb_interface
+isobuf	stk11xx.h	/^	struct stk11xx_iso_buf isobuf[MAX_ISO_BUFS];$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::stk11xx_iso_buf
+isoc_in_endpointAddr	stk11xx.h	/^	__u8 isoc_in_endpointAddr;			\/**< Isochrone IN endpoint address *\/$/;"	m	struct:usb_stk11xx
+isoc_in_size	stk11xx.h	/^	size_t isoc_in_size;				\/**< Isochrone IN size *\/$/;"	m	struct:usb_stk11xx
+isoc_init_ok	stk11xx.h	/^	char isoc_init_ok;$/;"	m	struct:usb_stk11xx
+len_per_image	stk11xx.h	/^	unsigned int len_per_image;$/;"	m	struct:usb_stk11xx
+length	stk11xx.h	/^	int length;$/;"	m	struct:stk11xx_iso_buf
+modlock	stk11xx.h	/^	struct mutex modlock;				\/**< To prevent races in video_open(), etc *\/$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::mutex
+mutex	stk11xx.h	/^	struct semaphore mutex;				\/**< Mutex *\/$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::semaphore
+nbuffers	stk11xx.h	/^	unsigned int nbuffers;$/;"	m	struct:usb_stk11xx
+next	stk11xx.h	/^	struct stk11xx_frame_buf *next;$/;"	m	struct:stk11xx_frame_buf	typeref:struct:stk11xx_frame_buf::stk11xx_frame_buf
+norm	stk11xx-usb.c	/^static int norm = -1;$/;"	v	file:
+norm	stk11xx.h	/^	int norm;							\/**< Norm, NTSC or PAL *\/$/;"	m	struct:stk11xx_video
+odd	stk11xx.h	/^	volatile bool odd;$/;"	m	struct:stk11xx_frame_buf
+offset	stk11xx.h	/^	unsigned long offset;				\/**< Memory offset *\/$/;"	m	struct:stk11xx_image_buf
+palette	stk11xx.h	/^	int palette;						\/**< Palette setting *\/$/;"	m	struct:stk11xx_video
+read	stk11xx.h	/^	int read;$/;"	m	struct:stk11xx_iso_buf
+read_frame	stk11xx.h	/^	struct stk11xx_frame_buf *read_frame;$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::stk11xx_frame_buf
+release	stk11xx.h	/^	int release;						\/**< Release of the device (bcdDevice) *\/$/;"	m	struct:usb_stk11xx
+resolution	stk11xx.h	/^	int resolution;$/;"	m	struct:usb_stk11xx
+show_brightness	stk11xx-sysfs.c	/^static ssize_t show_brightness(struct device *class, struct device_attribute *attr, char *buf)$/;"	f	file:
+show_colour	stk11xx-sysfs.c	/^static ssize_t show_colour(struct device *class, struct device_attribute *attr, char *buf)$/;"	f	file:
+show_contrast	stk11xx-sysfs.c	/^static ssize_t show_contrast(struct device *class, struct device_attribute *attr, char *buf)$/;"	f	file:
+show_fps	stk11xx-sysfs.c	/^static ssize_t show_fps(struct device *class, struct device_attribute *attr, char *buf)$/;"	f	file:
+show_hflip	stk11xx-sysfs.c	/^static ssize_t show_hflip(struct device *class, struct device_attribute *attr, char *buf)$/;"	f	file:
+show_informations	stk11xx-sysfs.c	/^static ssize_t show_informations(struct device *class, struct device_attribute *attr, char *buf)$/;"	f	file:
+show_release	stk11xx-sysfs.c	/^static ssize_t show_release(struct device *class, struct device_attribute *attr, char *buf)$/;"	f	file:
+show_vflip	stk11xx-sysfs.c	/^static ssize_t show_vflip(struct device *class, struct device_attribute *attr, char *buf)$/;"	f	file:
+show_videostatus	stk11xx-sysfs.c	/^static ssize_t show_videostatus(struct device *class, struct device_attribute *attr, char *buf)$/;"	f	file:
+show_whitebalance	stk11xx-sysfs.c	/^static ssize_t show_whitebalance(struct device *class, struct device_attribute *attr, char *buf)$/;"	f	file:
+spinlock	stk11xx.h	/^	spinlock_t spinlock;				\/**< Spin lock *\/$/;"	m	struct:usb_stk11xx
+stk11xx-objs	Makefile	/^stk11xx-objs := stk11xx-usb.o stk11xx-v4l.o stk11xx-sysfs.o stk11xx-dev.o stk11xx-buf.o stk11xx-bayer.o$/;"	m
+stk11xx_allocate_buffers	stk11xx-buf.c	/^int stk11xx_allocate_buffers(struct usb_stk11xx *dev)$/;"	f
+stk11xx_b2bgr24	stk11xx-bayer.c	/^void stk11xx_b2bgr24(uint8_t *bayer, uint8_t *bgr,$/;"	f
+stk11xx_b2bgr32	stk11xx-bayer.c	/^void stk11xx_b2bgr32(uint8_t *bayer, uint8_t *bgr,$/;"	f
+stk11xx_b2rgb24	stk11xx-bayer.c	/^void stk11xx_b2rgb24(uint8_t *bayer, uint8_t *rgb,$/;"	f
+stk11xx_b2rgb32	stk11xx-bayer.c	/^void stk11xx_b2rgb32(uint8_t *bayer, uint8_t *rgb,$/;"	f
+stk11xx_b2uyvy	stk11xx-bayer.c	/^void stk11xx_b2uyvy(uint8_t *bayer, uint8_t *yuv,$/;"	f
+stk11xx_b2yuyv	stk11xx-bayer.c	/^void stk11xx_b2yuyv(uint8_t *bayer, uint8_t *yuv,$/;"	f
+stk11xx_clear_buffers	stk11xx-buf.c	/^int stk11xx_clear_buffers(struct usb_stk11xx *dev)$/;"	f
+stk11xx_controls	stk11xx-v4l.c	/^static struct v4l2_queryctrl stk11xx_controls[] = {$/;"	v	typeref:struct:v4l2_queryctrl	file:
+stk11xx_coord	stk11xx.h	/^struct stk11xx_coord {$/;"	s
+stk11xx_copy_rgb	stk11xx-dev-0408.c	/^void stk11xx_copy_rgb(uint8_t *src, uint8_t *rgb,$/;"	f
+stk11xx_copy_uvyv	stk11xx-dev-0408.c	/^void stk11xx_copy_uvyv(uint8_t *src, uint8_t *rgb,$/;"	f
+stk11xx_correct_brightness	stk11xx-bayer.c	/^void stk11xx_correct_brightness(uint8_t *img, const int width, const int height, $/;"	f
+stk11xx_create_sysfs_files	stk11xx-sysfs.c	/^int stk11xx_create_sysfs_files(struct video_device *vdev)$/;"	f
+stk11xx_decompress	stk11xx-bayer.c	/^int stk11xx_decompress(struct usb_stk11xx *dev)$/;"	f
+stk11xx_frame_buf	stk11xx.h	/^struct stk11xx_frame_buf {$/;"	s
+stk11xx_free_buffers	stk11xx-buf.c	/^int stk11xx_free_buffers(struct usb_stk11xx *dev)$/;"	f
+stk11xx_handle_frame	stk11xx-buf.c	/^int stk11xx_handle_frame(struct usb_stk11xx *dev)$/;"	f
+stk11xx_image_buf	stk11xx.h	/^struct stk11xx_image_buf {$/;"	s
+stk11xx_image_sizes	stk11xx-v4l.c	/^const struct stk11xx_coord stk11xx_image_sizes[STK11XX_NBR_SIZES] = {$/;"	v	typeref:struct:stk11xx_coord
+stk11xx_iso_buf	stk11xx.h	/^struct stk11xx_iso_buf {$/;"	s
+stk11xx_next_frame	stk11xx-buf.c	/^int stk11xx_next_frame(struct usb_stk11xx *dev)$/;"	f
+stk11xx_next_image	stk11xx-buf.c	/^void stk11xx_next_image(struct usb_stk11xx *dev)$/;"	f
+stk11xx_remove_sysfs_files	stk11xx-sysfs.c	/^void stk11xx_remove_sysfs_files(struct video_device *vdev)$/;"	f
+stk11xx_reset_buffers	stk11xx-buf.c	/^int stk11xx_reset_buffers(struct usb_stk11xx *dev)$/;"	f
+stk11xx_rvfree	stk11xx-buf.c	/^void stk11xx_rvfree(void *mem, unsigned long size)$/;"	f
+stk11xx_rvmalloc	stk11xx-buf.c	/^void * stk11xx_rvmalloc(unsigned long size)$/;"	f
+stk11xx_table	stk11xx-usb.c	/^static struct usb_device_id stk11xx_table[] = {$/;"	v	typeref:struct:usb_device_id	file:
+stk11xx_video	stk11xx.h	/^struct stk11xx_video {$/;"	s
+stk11xx_yuv_interp	stk11xx-bayer.c	/^static signed short stk11xx_yuv_interp[256][8] = {$/;"	v	file:
+store_brightness	stk11xx-sysfs.c	/^static ssize_t store_brightness(struct device *class, struct device_attribute *attr, $/;"	f	file:
+store_colour	stk11xx-sysfs.c	/^static ssize_t store_colour(struct device *class, struct device_attribute *attr,$/;"	f	file:
+store_contrast	stk11xx-sysfs.c	/^static ssize_t store_contrast(struct device *class, struct device_attribute *attr,$/;"	f	file:
+store_hflip	stk11xx-sysfs.c	/^static ssize_t store_hflip(struct device *class, struct device_attribute *attr,$/;"	f	file:
+store_vflip	stk11xx-sysfs.c	/^static ssize_t store_vflip(struct device *class, struct device_attribute *attr, const char *buf, size_t count)$/;"	f	file:
+store_whitebalance	stk11xx-sysfs.c	/^static ssize_t store_whitebalance(struct device *class, struct device_attribute *attr,$/;"	f	file:
+to_stk11xx_dev	stk11xx.h	393;"	d
+udev	stk11xx.h	/^	struct usb_device *udev;			\/**< Pointer on a USB device *\/$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::usb_device
+urb	stk11xx.h	/^	struct urb *urb;$/;"	m	struct:stk11xx_iso_buf	typeref:struct:stk11xx_iso_buf::urb
+usb_stk11xx	stk11xx.h	/^struct usb_stk11xx {$/;"	s
+usb_stk11xx_default_settings	stk11xx-usb.c	/^static int usb_stk11xx_default_settings(struct usb_stk11xx *dev)$/;"	f	file:
+usb_stk11xx_disconnect	stk11xx-usb.c	/^static void usb_stk11xx_disconnect(struct usb_interface *interface)$/;"	f	file:
+usb_stk11xx_driver	stk11xx-usb.c	/^static struct usb_driver usb_stk11xx_driver = {$/;"	v	typeref:struct:usb_driver	file:
+usb_stk11xx_exit	stk11xx-usb.c	/^module_exit(usb_stk11xx_exit);						\/**< @brief Module exit *\/$/;"	v
+usb_stk11xx_exit	stk11xx-usb.c	/^static void __exit usb_stk11xx_exit(void)$/;"	f	file:
+usb_stk11xx_init	stk11xx-usb.c	/^module_init(usb_stk11xx_init);						\/**< @brief Module initialize *\/$/;"	v
+usb_stk11xx_init	stk11xx-usb.c	/^static int __init usb_stk11xx_init(void)$/;"	f	file:
+usb_stk11xx_isoc_cleanup	stk11xx-usb.c	/^void usb_stk11xx_isoc_cleanup(struct usb_stk11xx *dev)$/;"	f
+usb_stk11xx_isoc_handler	stk11xx-usb.c	/^void usb_stk11xx_isoc_handler(struct urb *urb)$/;"	f
+usb_stk11xx_isoc_init	stk11xx-usb.c	/^int usb_stk11xx_isoc_init(struct usb_stk11xx *dev)$/;"	f
+usb_stk11xx_probe	stk11xx-usb.c	/^static int usb_stk11xx_probe(struct usb_interface *interface, const struct usb_device_id *id)$/;"	f	file:
+usb_stk11xx_read_registry	stk11xx-usb.c	/^int usb_stk11xx_read_registry(struct usb_stk11xx *dev, __u16 index, int *value)$/;"	f
+usb_stk11xx_resume	stk11xx-usb.c	/^int usb_stk11xx_resume(struct usb_interface *interface)$/;"	f
+usb_stk11xx_set_configuration	stk11xx-usb.c	/^int usb_stk11xx_set_configuration(struct usb_stk11xx *dev)$/;"	f
+usb_stk11xx_set_feature	stk11xx-usb.c	/^int usb_stk11xx_set_feature(struct usb_stk11xx *dev, int index)$/;"	f
+usb_stk11xx_suspend	stk11xx-usb.c	/^int usb_stk11xx_suspend(struct usb_interface *interface, pm_message_t message)$/;"	f
+usb_stk11xx_write_registry	stk11xx-usb.c	/^int usb_stk11xx_write_registry(struct usb_stk11xx *dev, __u16 index, __u16 value)$/;"	f
+v1st_cap	stk11xx.h	/^	int v1st_cap;						\/**< used to get a clean 1st capture *\/$/;"	m	struct:usb_stk11xx
+v4l2_dev	stk11xx.h	/^	struct v4l2_device v4l2_dev;$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::v4l2_device
+v4l_stk11xx_do_ioctl	stk11xx-v4l.c	/^static long v4l_stk11xx_do_ioctl(struct file *fp,$/;"	f	file:
+v4l_stk11xx_fops	stk11xx-v4l.c	/^static struct v4l2_file_operations v4l_stk11xx_fops = {$/;"	v	typeref:struct:v4l2_file_operations	file:
+v4l_stk11xx_fops	stk11xx-v4l.c	/^static struct v4l2_file_operations v4l_stk11xx_fops;$/;"	v	typeref:struct:v4l2_file_operations	file:
+v4l_stk11xx_ioctl	stk11xx-v4l.c	/^static long v4l_stk11xx_ioctl(struct file *fp,$/;"	f	file:
+v4l_stk11xx_mmap	stk11xx-v4l.c	/^static int v4l_stk11xx_mmap(struct file *fp, struct vm_area_struct *vma)$/;"	f	file:
+v4l_stk11xx_open	stk11xx-v4l.c	/^static int v4l_stk11xx_open(struct file *fp)$/;"	f	file:
+v4l_stk11xx_poll	stk11xx-v4l.c	/^static unsigned int v4l_stk11xx_poll(struct file *fp, poll_table *wait)$/;"	f	file:
+v4l_stk11xx_read	stk11xx-v4l.c	/^static ssize_t v4l_stk11xx_read(struct file *fp, char __user *buf,$/;"	f	file:
+v4l_stk11xx_register_video_device	stk11xx-v4l.c	/^int v4l_stk11xx_register_video_device(struct usb_stk11xx *dev)$/;"	f
+v4l_stk11xx_release	stk11xx-v4l.c	/^static int v4l_stk11xx_release(struct file *fp)$/;"	f	file:
+v4l_stk11xx_select_video_mode	stk11xx-v4l.c	/^int v4l_stk11xx_select_video_mode(struct usb_stk11xx *dev, int width, int height)$/;"	f
+v4l_stk11xx_unregister_video_device	stk11xx-v4l.c	/^int v4l_stk11xx_unregister_video_device(struct usb_stk11xx *dev)$/;"	f
+vdev	stk11xx.h	/^	struct video_device *vdev; 			\/**< Pointer on a V4L2 video device *\/$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::video_device
+vflip	stk11xx-usb.c	/^static int vflip = -1;$/;"	v	file:
+vflip	stk11xx.h	/^	int vflip;							\/**< Vertical flip *\/$/;"	m	struct:stk11xx_video
+vframes_dumped	stk11xx.h	/^	int vframes_dumped;					\/**< Count the number of ignored frames *\/$/;"	m	struct:usb_stk11xx
+vframes_error	stk11xx.h	/^	int vframes_error;					\/**< Count the number of fault frames (so dropped) *\/$/;"	m	struct:usb_stk11xx
+view	stk11xx.h	/^	struct stk11xx_coord view;$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::stk11xx_coord
+view_size	stk11xx.h	/^	int view_size;$/;"	m	struct:usb_stk11xx
+visoc_errors	stk11xx.h	/^	int visoc_errors;					\/**< Count the number of ISOCH errors *\/$/;"	m	struct:usb_stk11xx
+vma_use_count	stk11xx.h	/^	int vma_use_count;					\/**< VMA counter *\/$/;"	m	struct:stk11xx_image_buf
+vopen	stk11xx.h	/^	int vopen;							\/**< Video status (Opened or Closed) *\/$/;"	m	struct:usb_stk11xx
+vsettings	stk11xx.h	/^	struct stk11xx_video vsettings;		\/**< Video settings (brightness, whiteness...) *\/$/;"	m	struct:usb_stk11xx	typeref:struct:usb_stk11xx::stk11xx_video
+vsync	stk11xx.h	/^	int vsync;							\/**< sync on valid frame *\/$/;"	m	struct:usb_stk11xx
+wait_frame	stk11xx.h	/^	wait_queue_head_t wait_frame;		\/**< Queue head *\/$/;"	m	struct:usb_stk11xx
+watchdog	stk11xx.h	/^	int watchdog;						\/**< Counter for the software watchdog *\/$/;"	m	struct:usb_stk11xx
+webcam_model	stk11xx.h	/^	int webcam_model;					\/**< Model of video camera device *\/$/;"	m	struct:usb_stk11xx
+webcam_type	stk11xx.h	/^	int webcam_type;					\/**< Type of camera : VGA, SXGA (1.3M), UXGA (2M) *\/$/;"	m	struct:usb_stk11xx
+whiteness	stk11xx-usb.c	/^static int whiteness = -1;$/;"	v	file:
+whiteness	stk11xx.h	/^	int whiteness;						\/**< Whiteness setting *\/$/;"	m	struct:stk11xx_video
+x	stk11xx.h	/^	int x;								\/**< X-coordonate *\/$/;"	m	struct:stk11xx_coord
+y	stk11xx.h	/^	int y;								\/**< Y-coordonate *\/$/;"	m	struct:stk11xx_coord

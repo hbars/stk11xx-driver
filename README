@@ -1,0 +1,192 @@
+Syntek USB 2.0 Video Camera
+===========================
+
+Note : The syntek USB 2.0 video camera driver for DC-1125 ans STK-1135 is currently being developed
+on Linux. This driver can do damages. Use this driver only if you know what you are doing.
+
+---------------------------------------------------------------------------------------------------
+
+Table of contents :
+
+1. Requirements
+
+2. Compilation
+ 2.1 Documentation
+ 2.2 Kernel module
+
+3. Installation
+
+4. Usage
+ 4.1 Option "fps" module
+ 4.2 Options "hflip" and "vflip" module
+ 4.3 Options "contrast", "colour", "whiteness" and "brightness"
+ 4.4 Use the "sysfs"
+
+5. Status of project
+
+6. Test experimental
+
+7. Debug
+ 7.1. 'lsusb' output
+ 7.2. USB logs from Windows
+ 7.3. USB logs from Linux
+ 7.4. Enable module traces
+
+8. Licence
+
+---------------------------------------------------------------------------------------------------
+
+1. Requirements
+
+Kernel 2.6.18 or higher
+Doxygen to compile the documentation
+
+---------------------------------------------------------------------------------------------------
+
+2. Compilation
+
+ 2.1 Documentation
+
+   To build documentation :
+   $ make -f Makefile.standalone doc
+   $ make -f Makefile.standalone cleandoc
+
+ 2.2 Kernel module
+
+   To build the kernel module :
+   $ make -f Makefile.standalone
+     or
+   $ make -f Makefile.standalone driver
+
+   $ make -f Makefile.standalone clean
+
+---------------------------------------------------------------------------------------------------
+
+3. Installation
+
+TODO...
+
+---------------------------------------------------------------------------------------------------
+
+4. Usage
+
+ 4.1 Option "fps" module
+
+   The syntek module waits the option "fps" (10, 15, 20, 25, 30) :
+   $ modprobe stk11xx fps=30
+
+   By default, the fps is set to '25'.
+
+ 4.2 Options "hflip" and "vflip" module
+ 
+   The syntek module waits the options "hflip" and "vflip" (values are 0 or 1):
+   $ modprobe stk11xx hflip=0 vflip=1
+
+   By default, the hflip and vflip are set to '1'.
+
+ 4.3 Options "contrast", "colour", "brightness" and "whiteness"
+ 
+   The syntek module waits the options "contrast", "colour", "brightness" and "whiteness" :
+   $ modprobe stk11xx contrast=0x7F00 colour=0x7F00
+
+   By default, the value of these options is set to '0x7F00'.
+
+ 4.4 Use the "sysfs"
+
+   In the directory : /sys/class/video4linux/videoX (by sample video0), you
+   can read and write some parameters :
+   $ cat hflip
+   $ echo 0 > hflip
+
+   To display informations about driver :
+   $ cat informations
+
+---------------------------------------------------------------------------------------------------
+
+5. Status
+
+The kernel module is currently being developped.
+
+The driver supports several webcam models :
+- 0x174F:0xA311 : Quiet good supported (developper's model)
+- 0x174F:0xA821 : Supported (only the video stream)
+- 0x174F:0x6A31 : Supported (only the video stream)
+- 0x174F:0x6A33 : Supported (only the video stream)
+- 0x174F:0x6A51 : Supported (only the video stream)
+- 0x174F:0x6A54 : Supported (only the video stream)
+- 0x174F:0x6D51 : Supported (only the video stream)
+- 0x05E1:0x0500 : 
+- 0x05E1:0x0501 : Like '0x174F:0xA311' (it's the same model)
+
+To increase the support, I need some help... Or somebody gives me the webcam !
+
+---------------------------------------------------------------------------------------------------
+
+6. Test experimental
+
+To build and load the driver, follow the steps :
+
+$ make -f Makefile.standalone clean
+$ make -f Makefile.standalone
+$ modprobe videodev
+$ insmod stk11xx.ko
+
+To test the driver with the V4L v1 API (map methode) :
+
+$ camorama -D --width=640 --height=480 
+
+To test the driver with the V4L v1 API (read methode) :
+
+$ camorama -D -R --width=640 --height=480 
+
+To test the driver with the V4L v2 :
+
+$ xawtv
+
+To use mplayer / mencoder :
+
+$ mplayer tv:// -tv driver=v4l:width=640:height=480
+$ mplayer tv:// -tv driver=v4l2:width=320:height=240:fps=25:outfmt=rgb24:device=/dev/video0
+$ mplayer tv:// -tv driver=v4l2:width=320:height=240:fps=25:outfmt=yuy2:device=/dev/video0
+$ mplayer tv:// -tv driver=v4l2:width=320:height=240:fps=25:outfmt=uyvy:device=/dev/video0
+$ mplayer tv:// -tv driver=v4l2:width=720:height=576:outfmt=yuy2:device=/dev/video0:input=1
+
+$ mencoder tv:// -tv driver=v4l:width=640:height=480:outfmt=rgb24:device=/dev/video0 -nosound -ovc lavc -o out.avi
+$ mencoder tv:// -tv driver=v4l2:width=320:height=240:fps=25:outfmt=rgb24:device=/dev/video0 -nosound -ovc lavc -o out.avi
+
+---------------------------------------------------------------------------------------------------
+
+7. Debug
+
+ 7.1. 'lsusb' output
+
+   [root@Dahlia driver]$ lsusb
+   Bus 002 Device 002: ID 046d:c047 Logitech, Inc.
+   Bus 002 Device 001: ID 0000:0000
+   Bus 005 Device 001: ID 0000:0000
+   Bus 004 Device 002: ID 0b05:1712 ASUSTek Computer, Inc.
+   Bus 004 Device 001: ID 0000:0000
+   Bus 003 Device 001: ID 0000:0000
+   Bus 001 Device 004: ID 174f:a311			<== Our Webcam
+   Bus 001 Device 001: ID 0000:0000
+ 
+   [root@Dahlia driver]$ lsusb -d 174f:a311 -vvv > lsusb.txt
+
+ 7.2. USB logs from Windows
+   There is 3 USB logs useful :
+   - Log 1 : when you plug your webcam
+   - Log 2 : when you run VideoView.exe (with the default settings)
+   - Log 3 : when you run VideoView.exe, then change the resolution to 1280x1024
+
+ 7.3. USB logs from Linux
+   Use the kernel module usbmon (enable option debugfs in the kernel)
+
+ 7.4. Enable module traces
+   You can enable : CONFIG_STK11XX_DEBUG and CONFIG_STK11XX_DEBUG_STREAM
+
+---------------------------------------------------------------------------------------------------
+
+8. Licence
+
+The kernel module is distributed under the licence GPL.
+

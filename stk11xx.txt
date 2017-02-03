@@ -1,0 +1,19 @@
+/**
+ * @mainpage Syntek USB2.0 Video Camera
+ *
+ * @section chap1 Introduction
+ *
+ * Syntek USB2.0 Video Camera Driver is documented with Doxygen.
+ * This Syntek project starts. So this driver isn't usable.
+ *
+ * @section chap2 Help us
+ *
+ * To write this driver, we need logs and traces about USB traffic.
+ * Using an USB sniffer, you can get this logs.
+ *
+ * @section chap3 Summary
+ *
+ * We hope you will be interested in this project and we will have
+ * quickly an usable driver.
+ *
+ */

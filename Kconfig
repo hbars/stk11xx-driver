@@ -1,0 +1,43 @@
+config STK11XX
+	tristate "Syntek USB 2.0 1.3M WebCam"
+	depends on VIDEO_V4L2 && (VIDEO_V4L1 || VIDEO_V4L1_COMPAT)
+	---help---
+	  Say Y or M here if you want to use a Syntek video camera.
+
+	  For the Syntek video camera, the lsusb output is :
+	   * 174f:a311
+	   * 174f:a821
+	   * 174f:6a31
+	   * 174f:6a33
+	   * 174f:6a51
+	   * 174f:6a54
+	   * 174f:6d51
+	   * 05e1:0408
+	   * 05e1:0500
+	   * 05e1:0501
+
+	  These webcams are often embedded in the laptops (Asus, Acer, HP...).
+	  All have the same name : Syntek USB2.0 - STK-1125 / STK-1135.
+
+	  To compile this driver as a module, choose M here: the
+	  module will be called stk11xx.
+
+
+config STK11XX_DEBUG
+	bool "Syntek USB 2.0 1.3M WebCam verbose debug"
+	depends on STK11XX
+	---help---
+	  Say Y here in order to have the syntek driver generate verbose debugging
+	  messages.
+
+
+config STK11XX_DEBUG_STREAM
+	bool "Syntek USB 2.0 1.3M WebCam verbose stream debug (only debug !)"
+	depends on STK11XX
+	---help---
+	  Say Y here in order to have the syntek driver generate verbose stream
+	  debugging messages.
+
+	  WARNING : this option slowes your computer !
+
+
