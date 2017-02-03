@@ -1,0 +1,11 @@
+Optional:
+sudo apt install ctags
+
+Then:
+make -f Makefile.standalone driver
+sudo mkdir -p /lib/modules/`uname -r`/kernel/drivers/media/usb/stk11xx
+sudo install -m 644 -o 0 -g 0 stk11xx.ko /lib/modules/`uname -r`/kernel/drivers/media/usb/stk11xx
+sudo depmod -a
+sudo modprobe stk11xx
+
+Injoy.
